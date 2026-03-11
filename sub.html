@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>풀무원 쇼핑몰</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/sub.css">
+</head>
+
+<body>
+
+  <!-- 헤더 -->
+  <header id="header">
+    <div class="header_top">
+      <div class="inner header_top_inner">
+        <h1 class="logo">
+          <a href="./index.html">
+            <span class="logo_hash">#</span>Pulmuone
+          </a>
+        </h1>
+
+        <div class="brand_path">
+          <a href="#">풀무원</a>
+          <span>|</span>
+          <a href="#">올가</a>
+          <span>|</span>
+          <a href="#">녹즙</a>
+        </div>
+
+        <div class="search_box">
+          <input type="text" placeholder="" aria-label="검색">
+          <button type="button" class="search_btn" aria-label="검색"></button>
+        </div>
+
+        <div class="top_link">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#">고객센터</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header_bottom">
+      <div class="inner header_bottom_inner">
+        <button type="button" class="category_btn">
+          <span class="hamburger"></span>
+          <span>카테고리</span>
+        </button>
+
+        <nav class="gnb">
+          <ul>
+            <li><a href="#">베스트</a></li>
+            <li><a href="#">지금세일</a></li>
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">풀무원이야기</a></li>
+          </ul>
+        </nav>
+
+        <div class="header_icon">
+          <a href="#" class="icon_btn" aria-label="마이페이지">
+            <img src="./img/icon/icon-user.png" alt="마이페이지">
+          </a>
+          <a href="#" class="icon_btn" aria-label="찜">
+            <img src="./img/icon/icon-heart.png" alt="찜">
+          </a>
+          <a href="#" class="icon_btn" aria-label="알림">
+            <img src="./img/icon/icon-login.png" alt="알림">
+          </a>
+          <a href="#" class="icon_btn" aria-label="장바구니">
+            <img src="./img/icon/icon-cart.png" alt="장바구니">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="container" class="sub_page">
+
+  <!-- =========================
+       sub
+  ========================= -->
+  <!-- =========================
+       1. 상단 상품 영역
+  ========================= -->
+  <section class="sub_top">
+    <div class="inner">
+
+      <!-- breadcrumb -->
+      <div class="sub_breadcrumb" id="breadcrumbBox"></div>
+
+      <div class="sub_top_inner">
+
+        <!-- 왼쪽 이미지 -->
+        <div class="sub_gallery">
+          <div class="sub_main_img">
+            <img id="mainImage" src="" alt="대표 상품 이미지">
+          </div>
+
+        </div>
+
+        <!-- 오른쪽 상품 정보 -->
+        <div class="sub_info">
+          <div class="sub_badge_list" id="badgeList"></div>
+
+          <h2 class="sub_title" id="goodsTitle"></h2>
+          <p class="sub_desc" id="goodsDesc"></p>
+
+          <div class="sub_price_box" id="priceBox"></div>
+
+          <ul class="sub_benefit_list" id="benefitList"></ul>
+
+          <div class="sub_meta_box" id="metaBox"></div>
+
+          <div class="sub_buy_box">
+            <div class="count_box">
+              <button type="button" class="count_btn" id="minusBtn">-</button>
+              <input type="text" id="countInput" value="1" readonly>
+              <button type="button" class="count_btn" id="plusBtn">+</button>
+            </div>
+
+            <div class="total_price_box">
+              <span>총 상품금액</span>
+              <strong id="totalPrice">0원</strong>
+            </div>
+
+            <div class="buy_btn_area">
+              <button type="button" class="btn_line">장바구니</button>
+              <button type="button" class="btn_green">바로구매</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       2. 추천 상품 영역
+  ========================= -->
+  <section class="sub_recommend">
+    <div class="inner">
+      <div class="sub_section_title">
+        <h3 id="recommendTitle">연관 상품 추천</h3>
+      </div>
+
+      <div class="recommend_list" id="recommendList">
+        <!-- JS 출력 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       3. 상세 정보 영역
+  ========================= -->
+  <section class="sub_detail">
+    <div class="inner">
+
+      <div class="detail_tabs" id="detailTabs">
+        <!-- JS 출력 -->
+      </div>
+
+      <div class="detail_contents" id="detailContents">
+        <!-- JS 출력 -->
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+  <!-- 푸터 -->
+  <footer id="footer">
+    <div class="footer_top">
+      <div class="inner footer_top_inner">
+        <a href="#">회사소개</a>
+        <a href="#">풀무원이야기</a>
+        <a href="#"><strong>개인정보처리방침</strong></a>
+        <a href="#">이용약관</a>
+        <a href="#">임직원 인증</a>
+        <a href="#">상품입점상담</a>
+      </div>
+    </div>
+
+    <div class="footer_main">
+      <div class="inner footer_main_inner">
+
+        <!-- 왼쪽 -->
+        <div class="footer_left">
+          <div class="footer_marks">
+            <img src="./img/footer/footer-escrow-1.png" alt="Pulmuone logo">
+            <img src="./img/footer/footer-escrow-2.jpg" alt="LG Escrow Service logo">
+            <img src="./img/footer/footer-escrow-3.jpg" alt="Norton logo">
+          </div>
+
+          <div class="footer_escrow">
+            <p class="escrow_title">이니시스 결제 시스템과 에스크로 서비스</p>
+            <p>(결제대금예치업 등록번호 : 02-006-00012)</p>
+            <p>를 통해 안전거래를 보장하고 있습니다.</p>
+          </div>
+        </div>
+
+        <!-- 가운데 -->
+        <div class="footer_center">
+          <p class="company_name">(주)풀무원</p>
+
+          <p>
+            <span>대표자 : 이우봉</span>
+            <span class="bar">|</span>
+            <span>주소 : 서울 강남구 광평로 280 (수서동), (주)풀무원</span>
+          </p>
+
+          <p>
+            <span>사업자등록번호 : 315-81-01744</span>
+            <a href="#" class="biz_link">사업자 정보확인</a>
+          </p>
+
+          <p>
+            <span>통신판매업신고 : 제2019-서울강남-02379호</span>
+            <span class="bar">|</span>
+            <span>건강기능식품 신고 : 제2019-016813호</span>
+          </p>
+
+          <p>호스팅 제공자 : (주)풀무원</p>
+
+          <p class="footer_notice">
+            ㈜풀무원은 통신판매중개자이며 통신판매의 당사자가 아닙니다.
+            ㈜풀무원은 상품, 거래정보 및 거래에 대하여 책임을 지지 않습니다.
+          </p>
+
+          <p class="copyright">
+            Copyright ⓒ Pulmuone co.,Ltd All Rights Reserved.
+          </p>
+        </div>
+
+        <!-- 오른쪽 -->
+        <div class="footer_right">
+          <h3>고객기쁨센터</h3>
+          <strong class="tel">080-022-0086</strong>
+
+          <p>이메일 : pmocs_02@pulmuone.com</p>
+          <p>
+            <span>평일 : 09:00 - 18:00</span>
+            <span class="bar"></span><br>
+            <span>점심시간 : 12:00 - 13:00</span>
+          </p>
+
+          <div class="footer_cs_link">
+            <a href="#">고객기쁨센터 바로가기</a>
+            <a href="#">공지사항</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="./js/slider.js"></script>
+  <script src="./js/quick_menu.js"></script>
+  <script src="./js/01_fetch_recommend.js"></script>
+  <script src="./js/02_fetch_sale.js"></script>
+  <script src="./js/03_fetch_snack.js"></script>
+  <script src="./js/04_fetch_best.js"></script>
+  <script src="./js/05_fetch_orga.js"></script>
+  <script src="./js/06_fetch_koreafood.js"></script>
+  <script src="./js/07_fetch_newitem.js"></script>
+  <script src="./js/08_fetch_brand.js"></script>
+  <script src="./js/sub.js"></script>
+
+</body>
+
+</html>

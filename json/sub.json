@@ -1,0 +1,177 @@
+{
+  "top": {
+    "breadcrumb": ["홈", "디자인밀", "정기배송"],
+    "brand": "디자인밀",
+    "badge": "BEST",
+    "title": "저당고단백밀 (1일 1식)",
+    "desc": "귀리현미밥에 채소와 단백질 찬을 더해 든든하게 즐기는 식단이에요. 바쁜 일상 속에서도 부담 없이 한 끼를 챙길 수 있도록 간편하게 구성했어요.",
+    "price": {
+      "original": "9,500원",
+      "sale": "9,020원",
+      "discountRate": "5%"
+    },
+    "rating": {
+      "score": "5.0",
+      "reviewCount": 456
+    },
+    "benefits": [
+      "정기배송 상품으로 원하는 주기에 맞춰 받아볼 수 있어요.",
+      "일부 지역 무료배송으로 부담 없이 주문할 수 있어요.",
+      "신선하게 냉장 상태로 배송돼요."
+    ],
+    "meta": [
+      {
+        "label": "원산지",
+        "value": "상세설명참조"
+      },
+      {
+        "label": "보관방법",
+        "value": "냉장보관"
+      },
+      {
+        "label": "배송정보",
+        "value": "일일배송 / 지금 주문 시 03-16 (월) 도착 예정"
+      }
+    ],
+    "order": {
+      "productName": "저당고단백밀 (1일 1식)",
+      "quantity": 1,
+      "unitPrice": 9020,
+      "deliveryCycle": [
+        "주3일 (월/수/금)",
+        "주5일 (월~금)"
+      ],
+      "deliveryPeriod": [
+        "1주",
+        "2주",
+        "4주"
+      ],
+      "selectedCycle": "주5일 (월~금)",
+      "selectedPeriod": "1주",
+      "buttonText": "로그인 후 구매하기"
+    },
+    "images": {
+      "main": "./img/sub/main.jpg",
+      "thumbs": [
+        "./img/sub/thumb1.jpg",
+        "./img/sub/thumb2.jpg",
+        "./img/sub/thumb3.jpg"
+      ]
+    }
+  },
+  "recommend": {
+    "title": "보고 계신 상품의 연관 상품 추천해 드려요!",
+    "items": [
+      {
+        "badge": "BEST",
+        "brand": "디자인밀",
+        "name": "정성한상 (1일1식)",
+        "discountRate": "10%",
+        "price": "7,650원",
+        "rating": "4.8",
+        "reviewCount": 1912,
+        "tag": "무료배송",
+        "image": "./img/sub/recommend1.jpg",
+        "link": "#"
+      },
+      {
+        "badge": "BEST",
+        "brand": "디자인밀",
+        "name": "300샐러드 Meal",
+        "discountRate": "10%",
+        "price": "6,750원",
+        "rating": "4.8",
+        "reviewCount": 1574,
+        "tag": "무료배송",
+        "image": "./img/sub/recommend2.jpg",
+        "link": "#"
+      },
+      {
+        "badge": "BEST",
+        "brand": "디자인밀",
+        "name": "그린밀 프로틴 (1일1식)",
+        "discountRate": "5%",
+        "price": "9,970원",
+        "rating": "4.8",
+        "reviewCount": 930,
+        "tag": "무료배송",
+        "image": "./img/sub/recommend3.jpg",
+        "link": "#"
+      },
+      {
+        "badge": "BEST",
+        "brand": "풀무원녹즙",
+        "name": "100% 오채소녹즙 (130ml)",
+        "discountRate": "",
+        "price": "3,300원",
+        "rating": "4.8",
+        "reviewCount": 560,
+        "tag": "무료배송",
+        "image": "./img/sub/recommend4.jpg",
+        "link": "#"
+      },
+      {
+        "badge": "NEW",
+        "brand": "풀무원식품",
+        "name": "나또 쉐이크 서리태 (280g)",
+        "discountRate": "20%",
+        "price": "15,800원",
+        "rating": "5.0",
+        "reviewCount": 10,
+        "tag": "골라담아할인",
+        "image": "./img/sub/recommend5.jpg",
+        "link": "#"
+      }
+    ]
+  },
+  "detail": {
+    "tabs": [
+      {
+        "id": "info",
+        "label": "상품정보"
+      },
+      {
+        "id": "buy",
+        "label": "구매정보"
+      },
+      {
+        "id": "review",
+        "label": "상품후기",
+        "count": 456
+      },
+      {
+        "id": "qna",
+        "label": "상품문의",
+        "count": 49
+      },
+      {
+        "id": "delivery",
+        "label": "배송/환불"
+      }
+    ],
+    "infoImages": [
+      "./img/sub/detail1.jpg",
+      "./img/sub/detail2.jpg",
+      "./img/sub/detail3.jpg",
+      "./img/sub/detail4.jpg",
+      "./img/sub/detail5.jpg"
+    ],
+    "buyInfo": [
+      "기본배송지에 따라 주문 가능 여부가 달라질 수 있습니다.",
+      "배송 일정 변경은 영업일 기준 원하는 날짜 3일 전까지 가능합니다.",
+      "장바구니 또는 배송방법 선택 화면에서 배송지 변경이 가능합니다."
+    ],
+    "reviewSummary": {
+      "score": "4.8",
+      "count": 456
+    },
+    "qnaSummary": {
+      "count": 49
+    },
+    "deliveryInfo": [
+      "냉장 상품으로 신선하게 배송됩니다.",
+      "배송 가능 지역에 한해 일일배송이 진행됩니다.",
+      "단순 변심에 의한 교환 및 환불은 기준에 따라 처리됩니다."
+    ]
+  }
+}

@@ -1,7 +1,14 @@
 fetch("./json/07_newitem.json")
-  .then((response) => response.json())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("07_newitem.json 파일을 찾을 수 없습니다.");
+    }
+    return response.json();
+  })
   .then((data) => {
     const newitemList = document.getElementById("newitemList");
+    if (!newitemList) return;
+
     let html = "";
 
     data.forEach((item) => {
@@ -26,7 +33,7 @@ fetch("./json/07_newitem.json")
               </p>
 
               <p class="review">★ ${item.rating} | 리뷰 ${item.review}</p>
-              <span class="item_tag">${item.badge}</span>
+              ${item.badge ? `<span class="item_tag">${item.badge}</span>` : ""}
             </div>
           </div>
         </div>
