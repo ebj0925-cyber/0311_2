@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>01_recommend</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+  <section class="section recommend">
+    <div class="inner">
+      <div class="section_title">
+        <div class="title_left">
+          <h2>고객님만을 위한 이상품</h2>
+          <p><span>#AI</span> 취향 비슷한 고객들이 구매한 상품 추천 드려요</p>
+        </div>
+
+        <div class="title_right">
+          <a href="#">더보기</a>
+        </div>
+      </div>
+
+      <ul class="product_list recommend_list"></ul>
+
+      <div class="section_btn">
+        <button type="button" class="prev">&lt;</button>
+        <button type="button" class="next">&gt;</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/01_fetch_recommend.js"></script>
+</body>
+</html>

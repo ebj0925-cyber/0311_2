@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>풀무원 쇼핑몰</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <!-- 헤더 -->
+  <header id="header">
+    <div class="header_top">
+      <div class="inner header_top_inner">
+        <h1 class="logo">
+          <a href="./index.html">
+            <span class="logo_hash">#</span>Pulmuone
+          </a>
+        </h1>
+
+        <div class="brand_path">
+          <a href="#">풀무원</a>
+          <span>|</span>
+          <a href="#">올가</a>
+          <span>|</span>
+          <a href="#">녹즙</a>
+        </div>
+
+        <div class="search_box">
+          <input type="text" placeholder="" aria-label="검색">
+          <button type="button" class="search_btn" aria-label="검색"></button>
+        </div>
+
+        <div class="top_link">
+          <a href="#">로그인</a>
+          <a href="#">회원가입</a>
+          <a href="#">고객센터</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header_bottom">
+      <div class="inner header_bottom_inner">
+        <button type="button" class="category_btn">
+          <span class="hamburger"></span>
+          <span>카테고리</span>
+        </button>
+
+        <nav class="gnb">
+          <ul>
+            <li><a href="#">베스트</a></li>
+            <li><a href="#">지금세일</a></li>
+            <li><a href="#">신상품</a></li>
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">풀무원이야기</a></li>
+          </ul>
+        </nav>
+
+        <div class="header_icon">
+          <a href="#" class="icon_btn" aria-label="마이페이지">
+            <img src="./img/icon/icon-user.png" alt="마이페이지">
+          </a>
+          <a href="#" class="icon_btn" aria-label="찜">
+            <img src="./img/icon/icon-heart.png" alt="찜">
+          </a>
+          <a href="#" class="icon_btn" aria-label="알림">
+            <img src="./img/icon/icon-login.png" alt="알림">
+          </a>
+          <a href="#" class="icon_btn" aria-label="장바구니">
+            <img src="./img/icon/icon-cart.png" alt="장바구니">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- 메인 슬라이드 -->
+    <section class="main_slider">
+      <div class="inner">
+        <div class="slider_wrap">
+          <ul class="slider_track"></ul>
+        </div>
+
+        <div class="slider_control">
+          <button type="button" class="slider_btn prev" aria-label="이전 슬라이드">&lt;</button>
+          <div class="slider_paging">
+            <span class="current">1</span>
+            <span>/</span>
+            <span class="total">1</span>
+          </div>
+          <button type="button" class="slider_btn next" aria-label="다음 슬라이드">&gt;</button>
+          <button type="button" class="slider_btn play" aria-label="슬라이드 정지">❚❚</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- quick menu -->
+    <section class="quick_menu">
+      <div class="inner">
+        <h2 class="blind">서비스 바로가기</h2>
+        <ul class="quick_menu_list"></ul>
+      </div>
+    </section>
+
+    <!-- 01_recommend -->
+    <section class="section recommend">
+      <div class="inner">
+        <div class="section_title">
+          <div class="title_left">
+            <h2>고객님만을 위한 이상품</h2>
+            <p><span>#AI</span> 취향 비슷한 고객들이 구매한 상품 추천 드려요</p>
+          </div>
+
+          <div class="title_right">
+            <a href="#">더보기</a>
+          </div>
+        </div>
+
+        <ul class="product_list recommend_list"></ul>
+
+        <div class="section_btn">
+          <button type="button" class="prev">&lt;</button>
+          <button type="button" class="next">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02_sale -->
+    <section class="section sale gray">
+      <div class="inner">
+        <div class="section_title">
+          <div class="title_left">
+            <h2>#PLUS 장보기</h2>
+          </div>
+        </div>
+
+        <div class="section_tab">
+          <button type="button" class="active">할인특가</button>
+          <button type="button">알뜰장보기</button>
+          <button type="button">골라담아 할인</button>
+        </div>
+
+        <ul class="product_list sale_list"></ul>
+
+        <div class="section_more">
+          <a href="#">상품 더 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03_snack -->
+    <section class="section snack">
+      <div class="inner">
+        <div class="section_title">
+          <div class="title_left">
+            <h2>출출할 때 먹기 좋은 야식 추천! 🍕</h2>
+          </div>
+
+          <div class="title_right">
+            <a href="#">더보기</a>
+          </div>
+        </div>
+
+        <ul class="product_list snack_list"></ul>
+
+        <div class="section_btn">
+          <button type="button" class="prev">&lt;</button>
+          <button type="button" class="next">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- mid banner -->
+    <section class="mid_banner">
+      <div class="inner">
+        <a href="#" class="mid_banner_item">
+          <img src="./img/banner/mid_banner.jpg" alt="풀무원이 만드는 건강한 내일">
+        </a>
+      </div>
+    </section>
+
+
+    <!-- 04_best -->
+    <section class="section best">
+      <div class="inner">
+        <div class="section_title">
+          <div class="title_left">
+            <h2>인기있는 재구매 추천템</h2>
+            <p><span>#AI</span> 최근 2주간 재구매 많은 상품 추천해 드려요</p>
+          </div>
+
+          <div class="title_right">
+            <a href="#">더보기</a>
+          </div>
+        </div>
+
+        <ul class="product_list best_list"></ul>
+
+        <div class="section_btn">
+          <button type="button" class="prev">&lt;</button>
+          <button type="button" class="next">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05_orga -->
+    <section class="section orga">
+      <div class="inner">
+        <div class="orga_header">
+          <div class="orga_logo">ORGA</div>
+          <h2>프리미엄 식품관 올가홀푸드</h2>
+        </div>
+
+        <div class="orga_top_banner">
+          <a href="#" class="banner_item">
+            <img src="./img/05_orga/orga_top1.jpg" alt="무항생제 정육 달걀">
+          </a>
+
+          <a href="#" class="banner_item">
+            <img src="./img/05_orga/orga_top2.jpg" alt="올가 단독">
+          </a>
+
+          <a href="#" class="banner_item">
+            <img src="./img/05_orga/orga_top3.jpg" alt="올가 산지직송">
+          </a>
+        </div>
+
+        <ul class="product_list orga_list"></ul>
+
+        <div class="section_btn">
+          <button type="button" class="prev">&lt;</button>
+          <button type="button" class="next">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06_koreafood -->
+    <section class="section koreafood">
+      <div class="inner">
+        <div class="section_title">
+          <div class="title_left">
+            <h2>전문점식 깊은 맛 🍱 반듯한식</h2>
+          </div>
+
+          <div class="title_right">
+            <a href="#">더보기</a>
+          </div>
+        </div>
+
+        <ul class="product_list koreafood_list"></ul>
+
+        <div class="section_btn">
+          <button type="button" class="prev">&lt;</button>
+          <button type="button" class="next">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <!--  Banner_2ea -->
+    <section class="mid_banner">
+      <div class="inner">
+        <div class="mid_banner_wrap">
+          <a href="#" class="banner_item">
+            <img src="./img/banner/banner1.png" alt="일일배달 녹즙 요일 주기 상품 내맘대로">
+          </a>
+          <a href="#" class="banner_item">
+            <img src="./img/banner/banner2.jpg" alt="끈끈한 실의 힘 1일 1나또 건강습관">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07_newitem -->
+    <section class="section gray newitem">
+      <div class="inner">
+
+        <div class="section_title">
+          <h2>💗 NEW, 제일 먼저 만나는 신상품</h2>
+          <div class="title_right">
+            <a href="#">더보기</a>
+          </div>
+        </div>
+
+        <div class="product_grid_3" id="newitemList">
+          <!-- JS로 들어감 -->
+        </div>
+
+        <div class="section_btn">
+          <button type="button">&lt;</button>
+          <button type="button">&gt;</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 08_brand -->
+    <section class="brand_section">
+      <div class="inner">
+        <div class="brand_title">
+          <h2>🎖 풀무원의 모든 브랜드</h2>
+        </div>
+
+        <div class="brand_tab">
+          <button type="button" class="arrow_btn prev" aria-label="이전 브랜드">‹</button>
+          <button type="button" class="active">아임리얼</button>
+          <button type="button">풀무원다논</button>
+          <button type="button">풀스키친</button>
+          <button type="button">풀스키즈</button>
+          <button type="button">풀스쿡</button>
+          <button type="button">바릴라</button>
+          <button type="button">풀무원샘물</button>
+          <button type="button">풀무원아미오</button>
+          <button type="button">풀무원녹즙</button>
+          <button type="button" class="arrow_btn next" aria-label="다음 브랜드">›</button>
+        </div>
+
+        <div class="brand_top_wrap">
+          <a href="#" class="brand_main_banner" id="brandMainBanner"></a>
+          <ul class="brand_top_products" id="brandTopProducts"></ul>
+        </div>
+
+        <ul class="brand_bottom_products" id="brandBottomProducts"></ul>
+
+        <div class="section_more">
+          <a href="#">브랜드 상품 더 보기</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 푸터 -->
+  <footer id="footer">
+    <div class="footer_top">
+      <div class="inner">
+        <a href="#"><strong>개인정보처리방침</strong></a>
+        <a href="#">이용약관</a>
+        <a href="#">법적고지</a>
+        <a href="#">이메일무단수집거부</a>
+        <a href="#">고객기쁨센터</a>
+        <a href="#">공지사항</a>
+      </div>
+    </div>
+
+    <div class="footer_main">
+      <div class="inner">
+        <!-- 왼쪽 -->
+        <div class="footer_info">
+          <h2 class="footer_logo">Pulmuone</h2>
+          <p class="company_name">풀무원식품(주)</p>
+
+          <ul class="company_info">
+            <li><span>대표이사</span> 홍길동</li>
+            <li><span>주소</span> 서울특별시 강남구 광평로 280</li>
+            <li><span>사업자등록번호</span> 000-00-00000</li>
+            <li><span>통신판매업신고</span> 제0000-서울강남-0000호</li>
+            <li><span>개인정보보호책임자</span> 홍길동</li>
+          </ul>
+
+          <p class="copyright">Copyright © Pulmuone All Rights Reserved.</p>
+        </div>
+
+        <!-- 가운데 -->
+        <div class="footer_cs">
+          <h3>고객기쁨센터</h3>
+          <strong class="tel">080-022-0085</strong>
+          <p>평일 09:00 ~ 18:00</p>
+          <p>점심시간 12:00 ~ 13:00</p>
+          <p>토 / 일 / 공휴일 휴무</p>
+        </div>
+
+        <!-- 오른쪽 -->
+        <div class="footer_mark_wrap">
+          <h3>안전한 결제 서비스</h3>
+          <p>
+            믿을 수 있는 결제 시스템과 소비자 보호 인증을 통해<br>
+            안전한 쇼핑 환경을 제공합니다.
+          </p>
+
+          <div class="footer_marks">
+            <img src="./img/footer/footer-escrow-1.png" alt="에스크로 인증">
+            <img src="./img/footer/footer-escrow-2.jpg" alt="KCP 인증">
+            <img src="./img/footer/footer-escrow-3.jpg" alt="소비자중심경영 인증">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="./js/slider.js"></script>
+  <script src="./js/01_fetch_recommend.js"></script>
+  <script src="./js/02_fetch_sale.js"></script>
+  <script src="./js/03_fetch_snack.js"></script>
+  <script src="./js/04_fetch_best.js"></script>
+  <script src="./js/05_fetch_orga.js"></script>
+  <script src="./js/06_fetch_koreafood.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/quick_menu.js"></script>
+  <script src="./js/01_fetch_recommend.js"></script>
+  <script src="./js/02_fetch_sale.js"></script>
+  <script src="./js/03_fetch_snack.js"></script>
+  <script src="./js/04_fetch_best.js"></script>
+  <script src="./js/05_fetch_orga.js"></script>
+  <script src="./js/06_fetch_koreafood.js"></script>
+  <script src="./js/07_fetch_newitem.js"></script>
+  <script src="./js/08_fetch_brand.js"></script>
+
+</body>
+
+</html>

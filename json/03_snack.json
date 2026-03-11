@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "brand": "풀무원식품",
+    "name": "노엣지피자 페퍼로니 콤비네이션 (393g)",
+    "image": "./img/03_snack/snack1.jpg",
+    "discount": 10,
+    "salePrice": 8980,
+    "rating": 4.8,
+    "reviewCount": 1027,
+    "badge": ""
+  },
+  {
+    "id": 2,
+    "brand": "풀무원지구식단",
+    "name": "[풀무원지구식단] 이슬만두 직화불고기맛 (1.02kg)",
+    "image": "./img/03_snack/snack2.jpg",
+    "discount": 23,
+    "salePrice": 9980,
+    "rating": 4.9,
+    "reviewCount": 89,
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "brand": "풀무원식품",
+    "name": "왕감자 통모짜 핫도그 (4개입) (360g)",
+    "image": "./img/03_snack/snack3.jpg",
+    "discount": 0,
+    "salePrice": 9980,
+    "rating": 4.9,
+    "reviewCount": 2034,
+    "badge": "BEST"
+  },
+  {
+    "id": 4,
+    "brand": "올가",
+    "name": "동물복지 양념치킨 (340g)",
+    "image": "./img/03_snack/snack4.jpg",
+    "discount": 0,
+    "salePrice": 13900,
+    "rating": 4.7,
+    "reviewCount": 904,
+    "badge": ""
+  },
+  {
+    "id": 5,
+    "brand": "풀무원식품",
+    "name": "쌀 순살 고추장 떡볶이 2인분 (480g)",
+    "image": "./img/03_snack/snack5.jpg",
+    "discount": 0,
+    "salePrice": 5480,
+    "rating": 4.8,
+    "reviewCount": 284,
+    "badge": ""
+  }
+]

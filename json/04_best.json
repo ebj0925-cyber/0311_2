@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "brand": "풀무원녹즙",
+    "name": "채소습관 양배추&브로콜리 (130ml)",
+    "image": "./img/04_best/best1.jpg",
+    "badge": "BEST",
+    "discount": 0,
+    "salePrice": 2900,
+    "rating": 4.8,
+    "reviewCount": 1345
+  },
+  {
+    "id": 2,
+    "brand": "풀무원식품",
+    "name": "특등급 국산콩 두부칩 오리지널 (40g)",
+    "image": "./img/04_best/best2.jpg",
+    "badge": "BEST",
+    "discount": 16,
+    "salePrice": 2480,
+    "rating": 4.9,
+    "reviewCount": 267
+  },
+  {
+    "id": 3,
+    "brand": "풀무원녹즙",
+    "name": "채소습관 케일&셀러리 (130ml)",
+    "image": "./img/04_best/best3.jpg",
+    "badge": "BEST",
+    "discount": 0,
+    "salePrice": 2300,
+    "rating": 4.8,
+    "reviewCount": 832
+  },
+  {
+    "id": 4,
+    "brand": "풀무원녹즙",
+    "name": "[일일배달] 마시는 검은콩즙 (190ml)",
+    "image": "./img/04_best/best4.jpg",
+    "badge": "BEST",
+    "discount": 0,
+    "salePrice": 2900,
+    "rating": 4.9,
+    "reviewCount": 349
+  },
+  {
+    "id": 5,
+    "brand": "풀무원녹즙",
+    "name": "[일일배달] 아임리얼 토마토 (190ml)",
+    "image": "./img/04_best/best5.jpg",
+    "badge": "BEST",
+    "discount": 0,
+    "salePrice": 3700,
+    "rating": 4.9,
+    "reviewCount": 213
+  }
+]

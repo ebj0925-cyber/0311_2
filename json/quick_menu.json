@@ -1,0 +1,52 @@
+[
+  {
+    "title": "쿠폰혜택",
+    "image": "./img/banner/quick1.png",
+    "link": "#"
+  },
+  {
+    "title": "#라운지",
+    "image": "./img/banner/quick2.png",
+    "link": "#"
+  },
+  {
+    "title": "일일배송",
+    "image": "./img/banner/quick3.png",
+    "link": "#"
+  },
+  {
+    "title": "전단행사",
+    "image": "./img/banner/quick4.png",
+    "link": "#"
+  },
+  {
+    "title": "산지직송",
+    "image": "./img/banner/quick5.png",
+    "link": "#"
+  },
+  {
+    "title": "지구식단",
+    "image": "./img/banner/quick6.png",
+    "link": "#"
+  },
+  {
+    "title": "녹즙",
+    "image": "./img/banner/quick7.png",
+    "link": "#"
+  },
+  {
+    "title": "아미오",
+    "image": "./img/banner/quick8.png",
+    "link": "#"
+  },
+  {
+    "title": "풀무원가전",
+    "image": "./img/banner/quick9.png",
+    "link": "#"
+  },
+  {
+    "title": "샘물",
+    "image": "./img/banner/quick10.png",
+    "link": "#"
+  }
+]

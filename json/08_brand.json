@@ -1,0 +1,78 @@
+{
+  "brandName": "아임리얼",
+  "mainBanner": "./img/08_brand/imreal_banner.jpg",
+  "products": [
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 100 고농축 블루베리 (1box) (120mlx24개)",
+      "image": "./img/08_brand/imreal1.jpg",
+      "discount": "44%",
+      "price": "24,900원",
+      "rating": "4.9",
+      "review": "1123"
+    },
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 스트로베리 (190ml)",
+      "image": "./img/08_brand/imreal2.jpg",
+      "discount": "19%",
+      "price": "2,980원",
+      "rating": "4.9",
+      "review": "1229"
+    },
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 100 고농축 블루베리 (120mlx6개)",
+      "image": "./img/08_brand/imreal3.jpg",
+      "discount": "",
+      "price": "11,220원",
+      "rating": "4.9",
+      "review": "1123"
+    },
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 스트로베리 (700ml)",
+      "image": "./img/08_brand/imreal4.jpg",
+      "discount": "18%",
+      "price": "8,980원",
+      "rating": "4.9",
+      "review": "1535"
+    },
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 순수착즙 오렌지 (700ml)",
+      "image": "./img/08_brand/imreal5.jpg",
+      "discount": "18%",
+      "price": "8,980원",
+      "rating": "4.9",
+      "review": "714"
+    },
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 토마토 (700ml)",
+      "image": "./img/08_brand/imreal6.jpg",
+      "discount": "18%",
+      "price": "8,980원",
+      "rating": "4.8",
+      "review": "558"
+    },
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 수박 (190ml)",
+      "image": "./img/08_brand/imreal7.jpg",
+      "discount": "",
+      "price": "3,700원",
+      "rating": "4.7",
+      "review": "562"
+    },
+    {
+      "brand": "아임리얼",
+      "name": "아임리얼 100 고농축 토마토+블루베리 120ml (각 12개 총 24개)",
+      "image": "./img/08_brand/imreal8.jpg",
+      "discount": "44%",
+      "price": "24,900원",
+      "rating": "4.9",
+      "review": "1616"
+    }
+  ]
+}

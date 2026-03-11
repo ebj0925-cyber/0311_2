@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "brand": "디자인밀",
+    "name": "정성한상 (1일1식)",
+    "image": "./img/01_recommend/recommend1.jpg",
+    "discount": 10,
+    "price": 8500,
+    "salePrice": 7650,
+    "rating": 4.8,
+    "reviewCount": 1903,
+    "badge": ""
+  },
+  {
+    "id": 2,
+    "brand": "풀무원지구식단",
+    "name": "[풀무원지구식단] 두유퐁당 크럼블 비낭시에 단호박 (32g×6개입)",
+    "image": "./img/01_recommend/recommend2.jpg",
+    "discount": 20,
+    "price": 14980,
+    "salePrice": 11980,
+    "rating": 5.0,
+    "reviewCount": 8,
+    "badge": "NEW"
+  },
+  {
+    "id": 3,
+    "brand": "풀스쿡",
+    "name": "[산지직송] 명품한돈 돼지고기 삼겹 구이용 (500g)",
+    "image": "./img/01_recommend/recommend3.jpg",
+    "discount": 23,
+    "price": 24500,
+    "salePrice": 18900,
+    "rating": 4.9,
+    "reviewCount": 10,
+    "badge": ""
+  },
+  {
+    "id": 4,
+    "brand": "올가",
+    "name": "통밀 베이글 (100g×4입)",
+    "image": "./img/01_recommend/recommend4.jpg",
+    "discount": 40,
+    "price": 8900,
+    "salePrice": 5340,
+    "rating": 4.9,
+    "reviewCount": 3019,
+    "badge": ""
+  },
+  {
+    "id": 5,
+    "brand": "올가",
+    "name": "Cage Free 동물복지 유정란 (20입)",
+    "image": "./img/01_recommend/recommend5.jpg",
+    "discount": 10,
+    "price": 14890,
+    "salePrice": 13400,
+    "rating": 4.8,
+    "reviewCount": 12387,
+    "badge": ""
+  }
+]

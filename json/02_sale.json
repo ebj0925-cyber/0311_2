@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "brand": "풀무원샘물",
+    "name": "생만두 가지치 (400g)",
+    "image": "./img/02_sale/sale1.jpg",
+    "badge": "BEST",
+    "discount": 28,
+    "salePrice": 4980,
+    "rating": 4.9,
+    "reviewCount": 52,
+    "tag": "골라담아할인"
+  },
+  {
+    "id": 2,
+    "brand": "올가",
+    "name": "유기농 슬라이스 치즈 (180g) (18g x10매)",
+    "image": "./img/02_sale/sale2.jpg",
+    "badge": "BEST",
+    "discount": 40,
+    "salePrice": 4500,
+    "rating": 4.8,
+    "reviewCount": 1944,
+    "tag": ""
+  },
+  {
+    "id": 3,
+    "brand": "풀무원샘물",
+    "name": "풀무원샘물 (2L X 6병) X 4박스",
+    "image": "./img/02_sale/sale3.jpg",
+    "badge": "BEST",
+    "discount": 34,
+    "salePrice": 13600,
+    "rating": 4.8,
+    "reviewCount": 7739,
+    "tag": "무료배송"
+  },
+  {
+    "id": 4,
+    "brand": "풀무원지구식단",
+    "name": "[지구식단] 동글떡볶이 2인분 (423.5g)",
+    "image": "./img/02_sale/sale4.jpg",
+    "badge": "BEST",
+    "discount": 9,
+    "salePrice": 4980,
+    "rating": 4.9,
+    "reviewCount": 4005,
+    "tag": "골라담아할인"
+  },
+  {
+    "id": 5,
+    "brand": "올가",
+    "name": "편하게 건강해지는 습관, 편강넛츠 (280g) (20g×14EA)",
+    "image": "./img/02_sale/sale5.jpg",
+    "badge": "BEST",
+    "discount": 34,
+    "salePrice": 12900,
+    "rating": 4.8,
+    "reviewCount": 803,
+    "tag": ""
+  }
+]

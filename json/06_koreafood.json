@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "brand": "풀무원식품",
+    "name": "[반듯한식] 시래기 보양 추어탕(실온) (460g)",
+    "image": "./img/06_koreafood/koreafood1.jpg",
+    "badge": "BEST",
+    "discount": 33,
+    "salePrice": 4980,
+    "rating": 4.9,
+    "reviewCount": 730
+  },
+  {
+    "id": 2,
+    "brand": "풀무원식품",
+    "name": "[반듯한식] 대파양지 육개장(실온) (450g)",
+    "image": "./img/06_koreafood/koreafood2.jpg",
+    "badge": "BEST",
+    "discount": 33,
+    "salePrice": 4980,
+    "rating": 4.9,
+    "reviewCount": 699
+  },
+  {
+    "id": 3,
+    "brand": "풀무원식품",
+    "name": "[반듯한식] 수제식감 동그랑땡 (315g)",
+    "image": "./img/06_koreafood/koreafood3.jpg",
+    "badge": "",
+    "discount": 0,
+    "salePrice": 7480,
+    "rating": 4.9,
+    "reviewCount": 109
+  },
+  {
+    "id": 4,
+    "brand": "풀무원식품",
+    "name": "[반듯한식] 진한오징어볶음 양념소스 (실온) (150g)",
+    "image": "./img/06_koreafood/koreafood4.jpg",
+    "badge": "",
+    "discount": 17,
+    "salePrice": 2280,
+    "rating": 4.9,
+    "reviewCount": 121
+  },
+  {
+    "id": 5,
+    "brand": "풀무원식품",
+    "name": "[반듯한식] 정통 도가니탕 (500g)",
+    "image": "./img/06_koreafood/koreafood5.jpg",
+    "badge": "",
+    "discount": 11,
+    "salePrice": 7980,
+    "rating": 4.9,
+    "reviewCount": 447
+  }
+]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>풀무원의 모든 브랜드</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="brand_section">
+            <div class="inner">
+                <div class="brand_title">
+                    <h2>🎖 풀무원의 모든 브랜드</h2>
+                </div>
+
+                <div class="brand_tab">
+                    <button type="button" class="arrow_btn prev" aria-label="이전 브랜드">‹</button>
+                    <button type="button" class="active">아임리얼</button>
+                    <button type="button">풀무원다논</button>
+                    <button type="button">풀스키친</button>
+                    <button type="button">풀스키즈</button>
+                    <button type="button">풀스쿡</button>
+                    <button type="button">바릴라</button>
+                    <button type="button">풀무원샘물</button>
+                    <button type="button">풀무원아미오</button>
+                    <button type="button">풀무원녹즙</button>
+                    <button type="button" class="arrow_btn next" aria-label="다음 브랜드">›</button>
+                </div>
+
+                <div class="brand_top_wrap">
+                    <a href="#" class="brand_main_banner" id="brandMainBanner"></a>
+                    <ul class="brand_top_products" id="brandTopProducts"></ul>
+                </div>
+
+                <ul class="brand_bottom_products" id="brandBottomProducts"></ul>
+
+                <div class="section_more">
+                    <a href="#">브랜드 상품 더 보기</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/08_fetch_brand.js"></script>
+</body>
+
+</html>

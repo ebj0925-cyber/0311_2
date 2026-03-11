@@ -1,0 +1,35 @@
+[
+  {
+    "brand": "풀무원식품",
+    "name": "생만두 감김치 (400g)",
+    "discount": "28%",
+    "price": "4,980원",
+    "rating": "4.8",
+    "review": "70",
+    "topImage": "./img/07_newitem/new_top1.jpg",
+    "thumbImage": "./img/07_newitem/new1.jpg",
+    "badge": "골라담기할인"
+  },
+  {
+    "brand": "풀무원식품",
+    "name": "나또 귀리 효소 (90g)",
+    "discount": "33%",
+    "price": "19,800원",
+    "rating": "5",
+    "review": "4",
+    "topImage": "./img/07_newitem/new_top2.jpg",
+    "thumbImage": "./img/07_newitem/new2.jpg",
+    "badge": "골라담기할인"
+  },
+  {
+    "brand": "풀무원식품",
+    "name": "고농도 진한 다용도 두부 (300g)",
+    "discount": "22%",
+    "price": "1,700원",
+    "rating": "4.9",
+    "review": "7",
+    "topImage": "./img/07_newitem/new_top3.jpg",
+    "thumbImage": "./img/07_newitem/new3.jpg",
+    "badge": "골라담기할인"
+  }
+]

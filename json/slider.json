@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "image": "./img/slider/slider1.jpg",
+    "badge1": "이벤트",
+    "badge2": "",
+    "title": "다 모았다! 한 눈에 보는\n이달의 혜택",
+    "desc": "#쿠폰 #신규회원혜택 #라운지 #카톡채널혜택",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "image": "./img/slider/slider2.jpg",
+    "badge1": "",
+    "badge2": "",
+    "title": "입맛 돋는 봄",
+    "desc": "추가 할인 쿠폰 6종 + 장보기 특가",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "image": "./img/slider/slider3.jpg",
+    "badge1": "NEW",
+    "badge2": "SALE",
+    "title": "生 생만두 갓김치\n신제품 출시",
+    "desc": "여수 돌산갓 100%, 갓 담근 갓김치의 풍미",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "image": "./img/slider/slider4.jpg",
+    "badge1": "기획전",
+    "badge2": "",
+    "title": "오늘의 특가 모음",
+    "desc": "#특가 #이벤트 #지금할인",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "image": "./img/slider/slider5.jpg",
+    "badge1": "추천",
+    "badge2": "",
+    "title": "건강하게 채우는\n장보기 추천",
+    "desc": "#추천상품 #건강식단 #풀무원",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "image": "./img/slider/slider6.jpg",
+    "badge1": "NEW",
+    "badge2": "",
+    "title": "신상품으로 만나는\n바른먹거리",
+    "desc": "#신상품 #바른먹거리 #프리미엄",
+    "link": "#"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "brand": "올가",
+    "name": "말차 건빵 (150g)",
+    "image": "./img/05_orga/orga1.jpg",
+    "badge": "BEST",
+    "discount": 50,
+    "salePrice": 1750,
+    "rating": 4.8,
+    "reviewCount": 423
+  },
+  {
+    "id": 2,
+    "brand": "올가",
+    "name": "나토키나제가 살아있는 우리콩 생나또(99g) (49.5g×2개입)",
+    "image": "./img/05_orga/orga2.jpg",
+    "badge": "BEST",
+    "discount": 50,
+    "salePrice": 1950,
+    "rating": 4.8,
+    "reviewCount": 4330
+  },
+  {
+    "id": 3,
+    "brand": "올가",
+    "name": "통밀 베이글 (100g×4입)",
+    "image": "./img/05_orga/orga3.jpg",
+    "badge": "BEST",
+    "discount": 40,
+    "salePrice": 5340,
+    "rating": 4.9,
+    "reviewCount": 3028
+  },
+  {
+    "id": 4,
+    "brand": "올가",
+    "name": "동물복지 후라이드 윙 치킨 (300g)",
+    "image": "./img/05_orga/orga4.jpg",
+    "badge": "BEST",
+    "discount": 40,
+    "salePrice": 7740,
+    "rating": 4.7,
+    "reviewCount": 1163
+  },
+  {
+    "id": 5,
+    "brand": "올가",
+    "name": "Cage Free 동물복지 유정란 (20입)",
+    "image": "./img/05_orga/orga5.jpg",
+    "badge": "BEST",
+    "discount": 10,
+    "salePrice": 13400,
+    "rating": 4.8,
+    "reviewCount": 12392
+  }
+]
