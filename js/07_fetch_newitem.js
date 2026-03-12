@@ -14,17 +14,29 @@ fetch("./json/07_newitem.json")
     data.forEach((item) => {
       html += `
         <div class="product_col">
-          <a href="#" class="product_top_img">
+          <a href="./sub.html" class="product_top_img">
             <img src="${item.topImage}" alt="${item.name}">
           </a>
 
           <div class="product_row_info">
-            <a href="#" class="product_thumb">
+            <a href="./sub.html" class="product_thumb">
               <img src="${item.thumbImage}" alt="${item.name}">
             </a>
 
             <div class="product_info">
-              <p class="brand">${item.brand}</p>
+              <div class="product_info_top">
+                <p class="brand">${item.brand}</p>
+
+                <div class="icon_box">
+                  <span class="wish">
+                    <img src="./img/icon/icon-heart.png" alt="찜하기">
+                  </span>
+                  <span class="cart">
+                    <img src="./img/icon/icon-cart.png" alt="장바구니">
+                  </span>
+                </div>
+              </div>
+
               <h3 class="name">${item.name}</h3>
 
               <p class="price">

@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const html = data.map((item) => {
         return `
           <li class="quick_menu_item">
-            <a href="${item.link}">
+            <a href="./sub.html">
               <span class="quick_icon">
                 <img src="${item.image}" alt="${item.title}">
               </span>

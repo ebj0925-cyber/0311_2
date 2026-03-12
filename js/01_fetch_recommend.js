@@ -12,23 +12,26 @@ fetch("./json/01_recommend.json")
     data.forEach((item) => {
       html += `
         <li class="product_item">
-          <a href="#">
+          <a href="./sub.html">
             <div class="product_img">
               <img src="${item.image}" alt="${item.name}">
             </div>
 
-            <div class="icon_box">
-              <span class="wish">
-                <img src="./img/icon/icon-heart.png" alt="찜하기">
-              </span>
-              <span class="cart">
-                <img src="./img/icon/icon-cart.png" alt="장바구니">
-              </span>
-            </div>
-
             <div class="product_info">
+              <div class="product_top_row">
+                ${item.badge ? `<span class="badge">${item.badge}</span>` : `<span class="badge_empty"></span>`}
+
+                <div class="icon_box">
+                  <span class="wish">
+                    <img src="./img/icon/icon-heart.png" alt="찜하기">
+                  </span>
+                  <span class="cart">
+                    <img src="./img/icon/icon-cart.png" alt="장바구니">
+                  </span>
+                </div>
+              </div>
+
               <p class="brand">${item.brand}</p>
-              ${item.badge ? `<span class="badge">${item.badge}</span>` : ""}
               <h3 class="name">${item.name}</h3>
 
               <p class="price">

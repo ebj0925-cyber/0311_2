@@ -12,22 +12,25 @@ fetch("./json/05_orga.json")
     data.forEach((item) => {
       html += `
         <li class="product_item">
-          <a href="#">
+          <a href="./sub.html">
             <div class="product_img">
               <img src="${item.image}" alt="${item.name}">
             </div>
 
-            <div class="icon_box">
-              <span class="wish">
-                <img src="./img/icon/icon-heart.png" alt="찜하기">
-              </span>
-              <span class="cart">
-                <img src="./img/icon/icon-cart.png" alt="장바구니">
-              </span>
-            </div>
-
             <div class="product_info">
-              ${item.badge ? `<span class="badge">${item.badge}</span>` : ""}
+              <div class="product_top_row">
+                ${item.badge ? `<span class="badge">${item.badge}</span>` : `<span class="badge_empty"></span>`}
+
+                <div class="icon_box">
+                  <span class="wish">
+                    <img src="./img/icon/icon-heart.png" alt="찜하기">
+                  </span>
+                  <span class="cart">
+                    <img src="./img/icon/icon-cart.png" alt="장바구니">
+                  </span>
+                </div>
+              </div>
+
               <p class="brand">${item.brand}</p>
               <h3 class="name">${item.name}</h3>
 
@@ -50,6 +53,8 @@ fetch("./json/05_orga.json")
   })
   .catch((error) => {
     console.error(error);
-    document.querySelector(".orga_list").innerHTML =
-      "<p>올가 상품 데이터를 불러오지 못했습니다.</p>";
+    const list = document.querySelector(".orga_list");
+    if (list) {
+      list.innerHTML = "<p>올가 상품 데이터를 불러오지 못했습니다.</p>";
+    }
   });

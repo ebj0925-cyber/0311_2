@@ -15,9 +15,10 @@
 
 .sub_section_title h3 {
   color: #111;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
 }
 
 /* =========================
@@ -64,6 +65,7 @@
 .sub_main_img {
   overflow: hidden;
   border: 1px solid #e8e8e8;
+  border-radius: 14px;
   background: #fafafa;
 }
 
@@ -73,27 +75,120 @@
   height: auto;
 }
 
+/* 썸네일 */
+.sub_thumb_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 18px;
+}
 
+.thumb_btn {
+  width: 88px;
+  height: 88px;
+  padding: 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background: #fff;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.thumb_btn img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumb_btn.active {
+  border-color: #69be28;
+  box-shadow: 0 0 0 2px rgba(105, 190, 40, 0.12);
+}
+
+/* 후기 */
+.sub_review_summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 18px 0 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.review_label {
+  margin-right: 10px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.review_star {
+  color: #69be28;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.review_score,
+.review_count {
+  color: #777;
+  font-size: 14px;
+}
+
+.review_divider {
+  color: #bbb;
+  font-size: 13px;
+}
 
 /* 오른쪽 정보 */
 .sub_info {
   flex: 1;
   max-width: 560px;
-  padding-top: 12px;
+  padding-top: 4px;
+}
+
+.sub_info_util {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.sub_util_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.sub_util_btn img {
+  display: block;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
 }
 
 .sub_badge_list {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .sub_badge {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 32px;
+  height: 34px;
   padding: 0 14px;
   border-radius: 999px;
   background: #f3f8ea;
@@ -105,17 +200,23 @@
 .sub_title {
   margin-bottom: 14px;
   color: #111;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.35;
   letter-spacing: -0.03em;
 }
 
 .sub_desc {
-  margin-bottom: 28px;
+  margin-bottom: 24px;
   color: #666;
-  font-size: 16px;
-  line-height: 1.75;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.sale_price_row {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
 }
 
 .sub_price_box {
@@ -124,86 +225,68 @@
 }
 
 .original_price {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #aaa;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: line-through;
-}
-
-.sale_price_row {
-  display: flex;
-  align-items: baseline;
-  gap: 12px;
-}
-
-.discount_rate {
-  color: #69be28;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1;
 }
 
 .sale_price {
   color: #111;
-  font-size: 44px;
+  font-size: 28px;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.03em;
 }
 
+.discount_rate {
+  color: #ff6a13;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+/* 혜택문구 숨김 */
 .sub_benefit_list {
-  padding: 22px 0;
-  border-bottom: 1px solid #ececec;
+  display: none;
 }
 
-.sub_benefit_list li {
-  position: relative;
-  padding-left: 14px;
-  color: #555;
-  font-size: 15px;
-  line-height: 2;
-}
-
-.sub_benefit_list li::before {
-  content: "";
-  position: absolute;
-  top: 14px;
-  left: 0;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: #69be28;
-}
-
+/* 메타 정보 */
 .sub_meta_box {
-  padding: 20px 0;
+  padding: 18px 0 0;
   border-bottom: 1px solid #ececec;
 }
 
 .meta_row {
   display: flex;
-  gap: 14px;
-  padding: 6px 0;
+  gap: 18px;
+  padding: 14px 0;
+  border-top: 1px solid #f1f1f1;
+}
+
+.meta_row:first-child {
+  border-top: 0;
 }
 
 .meta_label {
-  flex: 0 0 70px;
-  color: #888;
-  font-size: 15px;
-  font-weight: 500;
+  flex: 0 0 92px;
+  color: #666;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .meta_value {
-  color: #888;
-  font-size: 15px;
+  color: #666;
+  font-size: 14px;
   line-height: 1.7;
 }
 
+/* 구매 박스 */
 .sub_buy_box {
   width: 100%;
-  margin-top: 26px;
-  padding: 28px;
-  border-radius: 22px;
+  margin-top: 22px;
+  padding: 24px;
+  border-radius: 16px;
   background: #f7f7f7;
   box-sizing: border-box;
 }
@@ -242,18 +325,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 28px;
+  margin-top: 24px;
 }
 
 .total_price_box span {
   color: #444;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 
 .total_price_box strong {
   color: #e53935;
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -0.03em;
@@ -262,7 +345,7 @@
 .buy_btn_area {
   display: flex;
   gap: 12px;
-  margin-top: 24px;
+  margin-top: 20px;
 }
 
 .btn_line,
@@ -291,93 +374,165 @@
    2. sub recommend
 ========================= */
 .sub_recommend {
-  padding: 48px 0 56px;
+  padding: 64px 0 72px;
   background: transparent;
-  border-top: 1px solid #efefef;
-  border-bottom: 1px solid #efefef;
+  border: 0;
+}
+
+.sub_recommend .inner {
+  padding-top: 44px;
+  border-top: 1px solid #e9e9e9;
+}
+
+.sub_recommend .sub_section_title {
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.sub_recommend .sub_section_title h3 {
+  color: #111;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
 }
 
 .recommend_list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 28px 20px;
+  gap: 32px 20px;
 }
 
 .recommend_card a {
   display: block;
+  transition: transform 0.25s ease;
+}
+
+.recommend_card a:hover {
+  transform: translateY(-3px);
+}
+
+.recommend_img {
+  overflow: hidden;
+  border-radius: 0;
+  background: #f5f1e8;
 }
 
 .recommend_img img {
   display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 .recommend_text {
-  padding: 14px 4px 0;
+  padding: 16px 4px 0;
+}
+
+.recommend_top_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
 }
 
 .recommend_badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   min-width: 48px;
   height: 24px;
-  padding: 0 8px;
-  border-radius: 4px;
-  background: #f2f2f2;
+  padding: 0 10px;
+  border-radius: 6px;
+  background: #f1f1f1;
   color: #666;
-  font-size: 11px;
-  line-height: 24px;
+  font-size: 13px;
   font-weight: 700;
-  text-align: center;
+  line-height: 1;
+}
+
+.recommend_icons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.recommend_icons .icon_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.recommend_icons .icon_btn img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
 }
 
 .recommend_brand {
   margin-top: 12px;
   color: #888;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .recommend_name {
-  margin-top: 6px;
+  display: -webkit-box;
+  overflow: hidden;
+  min-height: 48px;
+  margin-top: 8px;
   color: #555;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
-  min-height: 54px;
+  word-break: keep-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .recommend_price_row {
   display: flex;
   align-items: baseline;
-  gap: 8px;
-  margin-top: 10px;
+  gap: 6px;
+  margin-top: 12px;
 }
 
 .recommend_discount {
   color: #ff5a36;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
+  line-height: 1;
 }
 
 .recommend_price {
-  color: #111;
-  font-size: 28px;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
 }
 
 .recommend_rating {
   margin-top: 10px;
   color: #999;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 .recommend_tag {
   display: inline-block;
   margin-top: 12px;
-  padding: 5px 10px;
-  border: 1px solid #bbb;
-  color: #666;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f7f7f7;
+  color: #777;
   font-size: 12px;
   line-height: 1.2;
 }
@@ -391,6 +546,7 @@
 
 .detail_tabs {
   display: flex;
+  flex-wrap: nowrap;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background: #f8f8f8;
@@ -402,7 +558,7 @@
   border: 0;
   background: #f8f8f8;
   color: #333;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -415,7 +571,7 @@
 .tab_count {
   margin-left: 2px;
   color: #999;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -458,8 +614,9 @@
 .detail_text_box h4 {
   margin-bottom: 18px;
   color: #111;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
+  line-height: 1.4;
 }
 
 .detail_text_box p {
@@ -499,11 +656,10 @@
     gap: 40px;
   }
 
-.sub_gallery {
-  flex: 0 1 600px;
-  max-width: 600px;
-  min-width: 0;
-}
+  .sub_gallery {
+    flex: 0 1 600px;
+    max-width: 600px;
+  }
 
   .sub_info {
     flex: 0 0 400px;
@@ -512,48 +668,66 @@
 
   .recommend_list {
     grid-template-columns: repeat(4, 1fr);
+    gap: 30px 18px;
   }
 }
 
 @media (max-width: 1024px) {
   .sub_top_inner {
-    flex-direction: column;
-    gap: 36px;
+    gap: 32px;
   }
 
-  .sub_gallery,
-  .sub_info {
-    flex: none;
-    width: 100%;
-    max-width: none;
+  .sub_gallery {
+    flex: 0 1 54%;
+    max-width: 54%;
   }
 
   .sub_info {
+    flex: 0 1 46%;
+    max-width: 46%;
     padding-top: 0;
   }
 
   .sub_title {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   .sub_desc {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .sale_price {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .discount_rate {
-    font-size: 34px;
+    font-size: 17px;
   }
 
   .total_price_box strong {
-    font-size: 38px;
+    font-size: 32px;
+  }
+
+  .thumb_btn {
+    width: 78px;
+    height: 78px;
+  }
+
+  .sub_recommend {
+    padding: 56px 0 64px;
+  }
+
+  .sub_recommend .inner {
+    padding-top: 36px;
+  }
+
+  .sub_recommend .sub_section_title h3 {
+    font-size: 24px;
   }
 
   .recommend_list {
     grid-template-columns: repeat(3, 1fr);
+    gap: 26px 18px;
   }
 }
 
@@ -567,46 +741,71 @@
     font-size: 12px;
   }
 
+  .sub_top_inner {
+    flex-direction: column;
+    gap: 36px;
+  }
+
+  .sub_gallery,
+  .sub_info {
+    flex: none;
+    width: 100%;
+    max-width: none;
+  }
+
+  .sub_main_img {
+    border-radius: 20px;
+  }
+
   .sub_thumb_list {
     gap: 10px;
   }
 
   .thumb_btn {
-    width: 74px;
-    height: 74px;
+    width: 72px;
+    height: 72px;
+    border-radius: 12px;
+  }
+
+  .sub_section_title h3,
+  .detail_text_box h4 {
+    font-size: 22px;
   }
 
   .sub_title {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .sub_desc,
   .meta_label,
   .meta_value,
-  .sub_benefit_list li,
   .detail_text_box p,
-  .detail_text_list li {
+  .detail_text_list li,
+  .sub_review_summary,
+  .review_label,
+  .review_score,
+  .review_count {
     font-size: 14px;
   }
 
   .original_price {
-    font-size: 16px;
-  }
-
-  .discount_rate {
-    font-size: 28px;
+    font-size: 14px;
   }
 
   .sale_price {
-    font-size: 34px;
+    font-size: 28px;
+  }
+
+  .discount_rate {
+    font-size: 16px;
   }
 
   .total_price_box span {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .total_price_box strong {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .buy_btn_area {
@@ -619,42 +818,60 @@
     font-size: 16px;
   }
 
+  .sub_recommend {
+    padding: 48px 0 56px;
+  }
+
+  .sub_recommend .inner {
+    padding-top: 30px;
+  }
+
+  .sub_recommend .sub_section_title {
+    margin-bottom: 24px;
+  }
+
+  .sub_recommend .sub_section_title h3 {
+    font-size: 22px;
+  }
+
   .recommend_list {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px 16px;
   }
 
+  .recommend_text {
+    padding: 14px 4px 0;
+  }
+
+  .recommend_brand {
+    font-size: 12px;
+  }
+
   .recommend_name {
-    font-size: 16px;
     min-height: auto;
+    font-size: 16px;
   }
 
-  .recommend_price {
-    font-size: 22px;
-  }
-
-  .detail_tabs {
-    flex-wrap: wrap;
-  }
-
-  .detail_tab_btn {
-    flex: 0 0 50%;
-    height: 58px;
+  .recommend_discount {
     font-size: 15px;
   }
 
-  .sub_section_title h3,
-  .detail_text_box h4 {
-    font-size: 22px;
+  .recommend_price {
+    font-size: 18px;
+  }
+
+  .recommend_rating {
+    font-size: 12px;
   }
 }
 
 @media (max-width: 480px) {
-  .recommend_list {
-    grid-template-columns: 1fr;
+  .thumb_btn {
+    width: 64px;
+    height: 64px;
   }
 
-  .detail_tab_btn {
-    flex: 0 0 100%;
+  .recommend_list {
+    grid-template-columns: 1fr;
   }
 }

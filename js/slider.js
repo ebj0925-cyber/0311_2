@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         return `
           <li class="slider_item ${isLight}">
-            <a href="${item.link}">
+            <a href="./sub.html">
               <img src="${item.image}" alt="${item.title.replace(/\n/g, " ")}">
               <div class="slide_dim"></div>
               <div class="slide_txt">

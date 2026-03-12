@@ -12,8 +12,10 @@ fetch("./json/08_brand.json")
 
     if (brandMainBanner) {
       brandMainBanner.innerHTML = `
-        <img src="${data.mainBanner}" alt="${data.brandName} 브랜드 배너">
-      `;
+    <a href="./sub.html">
+      <img src="${data.mainBanner}" alt="${data.brandName} 브랜드 배너">
+    </a>
+  `;
     }
 
     const topItems = data.products.slice(0, 3);
@@ -22,7 +24,7 @@ fetch("./json/08_brand.json")
     function createProductCard(item) {
       return `
         <li class="product_item">
-          <a href="#">
+          <a href="./sub.html">
             <div class="product_img">
               <img src="${item.image}" alt="${item.name}">
             </div>
