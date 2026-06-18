@@ -12,10 +12,9 @@ fetch("./json/08_brand.json")
 
     if (brandMainBanner) {
       brandMainBanner.innerHTML = `
-    <a href="./sub.html">
       <img src="${data.mainBanner}" alt="${data.brandName} 브랜드 배너">
-    </a>
   `;
+      brandMainBanner.href = "./sub.html";
     }
 
     const topItems = data.products.slice(0, 3);
