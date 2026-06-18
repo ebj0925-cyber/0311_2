@@ -301,6 +301,34 @@ JSON 파일을 `fetch()`로 불러오기 때문에 파일을 직접 더블클릭
 ## 📎 Portfolio
 
 - [PPT 다운로드](./portfolio/풀무원쇼핑몰_포트폴리오_v7.pptx)
+- [PDF 보기](./portfolio/풀무원쇼핑몰_포트폴리오.pdf)
+
+### Preview
+
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0001.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0002.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0003.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0004.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0005.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0006.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0007.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0008.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0009.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0010.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0011.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0012.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0013.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0014.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0015.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0016.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0017.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0018.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0019.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0020.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0021.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0022.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0023.png" width="800" />
+<img src="./portfolio/img_ppt/풀무원쇼핑몰_포트폴리오_v7_0024.png" width="800" />
 
 ---
 
